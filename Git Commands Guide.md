@@ -50,7 +50,7 @@ git branch                    # List all branches
 git branch <name>            # Create a new branch
 git checkout <branch>        # Switch branches
 git switch <branch>          # Newer way to switch branches
-git checkout -b <name>       # Create and switch to new branch
+git <name>       # Create and switch to new branch
 git merge <branch>           # Merge branch into current branch
 git branch -d <name>         # Delete a branch
 ```
