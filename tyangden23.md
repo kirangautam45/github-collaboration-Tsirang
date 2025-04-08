@@ -8,4 +8,4 @@ filter.lfs.process=git-lfs filter-process
 filter.lfs.required=true
 http.sslbackend=openssl
 http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
-core.autocrlf=true
+core.autocrlf=true<>
