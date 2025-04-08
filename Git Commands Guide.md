@@ -37,7 +37,7 @@ git checkout -- <file>   # Discard local changes to a file
 ## ✅ Commit Changes
 
 ```bash
-git commit -m "Message"      # Commit staged changes with a message
+git add .                # Stage all changes
 git commit -am "Message"     # Add and commit tracked files in one step
 ```
 
