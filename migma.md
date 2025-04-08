@@ -25,7 +25,7 @@ git show                 # Show details of latest or specific commit
 
 ## 🧑‍💻 Working with Files
 
-```bashgit
+```bash
 git add <file>           # Stage a file
 git add .                # Stage all changes
 git reset <file>         # Unstage a file
@@ -37,7 +37,7 @@ git checkout -- <file>   # Discard local changes to a file
 ## ✅ Commit Changes
 
 ```bash
-git add .                # Stage all changes
+git commit -m "Message"      # Commit staged changes with a message
 git commit -am "Message"     # Add and commit tracked files in one step
 ```
 
@@ -50,7 +50,7 @@ git branch                    # List all branches
 git branch <name>            # Create a new branch
 git checkout <branch>        # Switch branches
 git switch <branch>          # Newer way to switch branches
-git <name>       # Create and switch to new branch
+git checkout -b <name>       # Create and switch to new branch
 git merge <branch>           # Merge branch into current branch
 git branch -d <name>         # Delete a branch
 ```
