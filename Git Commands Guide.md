@@ -25,7 +25,7 @@ git show                 # Show details of latest or specific commit
 
 ## 🧑‍💻 Working with Files
 
-```bashgit
+```bash
 git add <file>           # Stage a file
 git add .                # Stage all changes
 git reset <file>         # Unstage a file
